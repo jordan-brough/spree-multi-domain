@@ -1,0 +1,3 @@
+<% @product.store_ids.each do |store_id| %>
+  <%= hidden_field_tag 'product[store_ids][]', store_id %>
+<% end %>
